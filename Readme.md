@@ -1,6 +1,6 @@
-usage: zip-files.py [-h] -d DIR [-s [SPLIT]] [-a]
-
 Compress all files in a specified folder using 7z.
+
+usage: zip-files.py [-h] -d DIR [-s [SPLIT]] [-a]
 
 optional arguments:
   -h, --help            show this help message and exit
