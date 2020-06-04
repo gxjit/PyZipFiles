@@ -101,7 +101,7 @@ def main(pargs):
     if pargs.split:
         print(f"\nSplit size: {splitSize} MB")
     print("\n--------------------------------------------\n")
-    # subprocess.run(cmd)
+    subprocess.run(cmd)
     input("\nPress Enter to continue...")
 
 
