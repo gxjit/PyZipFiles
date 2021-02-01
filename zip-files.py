@@ -95,7 +95,7 @@ getCmd = lambda dirPath, abs, i=None: [
 def runCmd(cmd, dry):
     print("\n---------------------------------------")
     print("\nCreating archive:", cmd[2])
-    print("\n", cmd)
+    # print("\n", cmd)
     if not dry:
         subprocess.run(cmd)
     print("\n---------------------------------------\n")
